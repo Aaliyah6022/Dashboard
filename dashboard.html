@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="utf-8">
+	<title>Dashboard</title>
+	<link rel="stylesheet" type="text/css" href="dashboard.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="navigation">
+                <ul>
+                    <li>
+                        <a href="#">
+                            <span class="icon"><ion-icon name="person-circle-outline"></ion-icon></span>
+                            <span class="title">Adela Dashboard</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span class="icon"><ion-icon name="home-outline"></ion-icon></span>
+                            <span class="title">Dashboard</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span class="icon"><ion-icon name="hardware-chip-outline"></ion-icon></span>
+                            <span class="title">Servers</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span class="icon"><ion-icon name="folder-open-outline"></ion-icon></span>
+                            <span class="title">Log history</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span class="icon"><ion-icon name="help-outline"></ion-icon></span>
+                            <span class="title">Help</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span class="icon"><ion-icon name="options-outline"></ion-icon></span>
+                            <span class="title">Settings</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span class="icon"><ion-icon name="finger-print-outline"></ion-icon></span>
+                            <span class="title">Password</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span class="icon"><ion-icon name="log-out-outline"></ion-icon></span>
+                            <span class="title">Sign Out</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- main -->
+            <div class="main">
+                <div class="topbar">
+                    <div class="toggle">
+                        <ion-icon name="menu-outline"></ion-icon>
+                    </div>
+                    <!-- search -->
+                    <div class="search">
+                        <label>
+                            <input type="text" placeholder="Search here">
+                            <ion-icon name="search-outline"></ion-icon>
+                        </label>
+                    </div>
+                    <!-- userImg -->
+                    <div class="user">
+                        <img src="luna.jpg">
+                    </div>
+                </div>
+
+                <!-- cards -->
+                <div class="cardBox">
+                    <div class="card">
+                        <div>
+                            <div class="numbers">9</div>
+                            <div class="cardName">Servers</div>
+                        </div>
+                        <div class="iconBx">
+                            <ion-icon name="server-outline"></ion-icon>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div>
+                            <div class="numbers">165</div>
+                            <div class="cardName">Total Members</div>
+                        </div>
+                        <div class="iconBx">
+                            <ion-icon name="people-outline"></ion-icon>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div>
+                            <div class="numbers">883</div>
+                            <div class="cardName">Total Messages</div>
+                        </div>
+                        <div class="iconBx">
+                            <ion-icon name="document-outline"></ion-icon>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div>
+                            <div class="numbers">302</div>
+                            <div class="cardName">Voice Calls</div>
+                        </div>
+                        <div class="iconBx">
+                            <ion-icon name="headset-outline"></ion-icon>
+                        </div>
+                    </div>
+                </div>
+
+                
+                <div class="details">
+                    <!-- details list -->
+                    <div class="recentServers">
+                        <div class="cardHeader">
+                            <h2>Servers</h2>
+                            <a href="#" class="btn">View All</a>
+                        </div>
+                        <table>
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Members</td>
+                                    <td>Subscription</td>
+                                    <td>Status</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Luna's Server</td>
+                                    <td>3</td>
+                                    <td>Free</td>
+                                    <td><span class="status working">Working</span></td>
+                                </tr>
+                                <tr>
+                                    <td>Testing</td>
+                                    <td>2</td>
+                                    <td>Free</td>
+                                    <td><span class="status working">Working</span></td>
+                                </tr>
+                                <tr>
+                                    <td>CS:GO</td>
+                                    <td>0</td>
+                                    <td>Paid</td>
+                                    <td><span class="status terminated">Terminated</span></td>
+                                </tr>
+                                <tr>
+                                    <td>Rust</td>
+                                    <td>116</td>
+                                    <td>Paid</td>
+                                    <td><span class="status working">Working</span></td>
+                                </tr>
+                                <tr>
+                                    <td>Minecraft</td>
+                                    <td>14</td>
+                                    <td>Free</td>
+                                    <td><span class="status closed">Closed</span></td>
+                                </tr>
+                                <tr>
+                                    <td>Valorant Team</td>
+                                    <td>6</td>
+                                    <td>Free</td>
+                                    <td><span class="status working">Working</span></td>
+                                </tr>
+                                <tr>
+                                    <td>Backup</td>
+                                    <td>1</td>
+                                    <td>Free</td>
+                                    <td><span class="status terminated">Terminated</span></td>
+                                </tr>
+                                <tr>
+                                    <td>Links</td>
+                                    <td>1</td>
+                                    <td>Free</td>
+                                    <td><span class="status working">Working</span></td>
+                                </tr>
+                                <tr>
+                                    <td>School</td>
+                                    <td>2</td>
+                                    <td>Free</td>
+                                    <td><span class="status closed">Closed</span></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <!-- Top Active -->
+                    <div class="topActive">
+                        <div class="cardHeader">
+                            <h2>Top Members</h2>
+                        </div>
+                        <table>
+                            <tr>
+                                <td width="60px"><div class="imgBx"><img src="luna.jpg"></div></td>
+                                <td><h4>LunaLynx</h4></td>
+                            </tr>
+                            <tr>
+                                <td width="60px"><div class="imgBx"><img src="user2.jpg"></div></td>
+                                <td><h4>Python</h4></td>
+                            </tr>
+                            <tr>
+                                <td width="60px"><div class="imgBx"><img src="user3.jpg"></div></td>
+                                <td><h4>Adela</h4></td>
+                            </tr>
+                            <tr>
+                                <td width="60px"><div class="imgBx"><img src="user3.jpg"></div></td>
+                                <td><h4>DummyName</h4></td>
+                            </tr>
+                            <tr>
+                                <td width="60px"><div class="imgBx"><img src="user3.jpg"></div></td>
+                                <td><h4>DummyName</h4></td>
+                            </tr>
+                            <tr>
+                                <td width="60px"><div class="imgBx"><img src="user3.jpg"></div></td>
+                                <td><h4>DummyName</h4></td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    
+        <script>
+            //menuToggle
+            let toggle = document.querySelector('.toggle');
+            let navigation = document.querySelector('.navigation');
+            let main = document.querySelector('.main');
+
+            toggle.onclick = function(){
+                navigation.classList.toggle('active');
+                main.classList.toggle('active');
+            }
+
+
+            let list = document.querySelectorAll('.navigation li');
+            function activeLink(){
+                list.forEach((item) =>
+                item.classList.remove('hovered'));
+                this.classList.add('hovered');
+            }
+            list.forEach((item) =>
+            item.addEventListener('mouseover',activeLink));
+        </script>
+    </body>
+</html>
